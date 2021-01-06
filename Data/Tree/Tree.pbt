@@ -57,9 +57,9 @@ Objects {
   Name: "Gear - generic small"
   Transform {
     Location {
-      X: -1050
-      Y: -160.674011
-      Z: 129.467514
+      X: -1000
+      Y: -160.674072
+      Z: 300
     }
     Rotation {
     }
