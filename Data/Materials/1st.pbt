@@ -2,7 +2,7 @@
   Id: 1050478849239380324
   Name: "1st"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 16788332565125279361
     ParameterOverrides {

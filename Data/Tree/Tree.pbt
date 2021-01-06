@@ -40,6 +40,7 @@ Objects {
   ChildIds: 1173649490077387846
   ChildIds: 12125099904389907898
   ChildIds: 18131001502495972809
+  ChildIds: 1781421998264531870
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -49,6 +50,47 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 1781421998264531870
+  Name: "Gear - generic small"
+  Transform {
+    Location {
+      X: -1050
+      Y: -160.674011
+      Z: 129.467514
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5.00818491
+      Y: 5.00818491
+      Z: 5.00818491
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7746613199862006348
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -2512,6 +2554,7 @@ Objects {
       CanMoveUp: true
       CanMoveDown: true
       IsMountEnabled: true
+      MaxHitpoints: 100
     }
   }
 }
