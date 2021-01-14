@@ -42,6 +42,7 @@ Objects {
   ChildIds: 18131001502495972809
   ChildIds: 1781421998264531870
   ChildIds: 7072853006840735262
+  ChildIds: 3551035930847111175
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -51,6 +52,48 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 3551035930847111175
+  Name: "Text 01: $"
+  Transform {
+    Location {
+      X: -463.355042
+      Y: -900
+      Z: -6.10351563e-05
+    }
+    Rotation {
+      Yaw: 85.8371506
+    }
+    Scale {
+      X: 13.8548317
+      Y: 13.8548317
+      Z: 13.8548317
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9254563910504845678
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
